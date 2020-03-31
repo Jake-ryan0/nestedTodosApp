@@ -1,9 +1,3 @@
-// it should have a place to store todos
-// it should have a way to display todos
-// it should have a way to add new todos
-// it should have a way to change a todo
-// it should have a way to delete a todo
-
 document.addEventListener("DOMContentLoaded", function(event) {
   var util = {
     getTodos: function(name) {
@@ -174,9 +168,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
           }
         });
-        // what should I do when there isn't a previous todo?
-        // add a blank todo to the nestedTodos array associated with current Li ID
-        // util.addNestedTodo(e);
       }
       this.storeTodosLocally('todoList', App.todos);
       App.renderTodos();
